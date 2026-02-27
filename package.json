@@ -1,0 +1,19 @@
+{
+  "name": "graphic-design-generator-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for AI-generated Rust team/server logos using Google Gemini",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register": "node src/registerCommands.js"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0"
+  }
+}
