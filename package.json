@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Discord bot for AI-generated Rust team/server logos using Google Gemini",
   "type": "module",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "start": "node index.js",
+    "dev": "node --watch index.js",
     "register": "node src/registerCommands.js"
   },
   "engines": {

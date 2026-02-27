@@ -69,6 +69,22 @@ npm run register
 npm start
 ```
 
+### Server startup command (important)
+
+On host panels (Pterodactyl, Docker game panels, etc.), use one of:
+
+```bash
+npm start
+```
+
+or
+
+```bash
+node index.js
+```
+
+Do not use `ts-node` for this project (it is plain JavaScript), and avoid stale commands like `node src/index.ts`.
+
 ## Command Quick Start
 
 ### Main generation
